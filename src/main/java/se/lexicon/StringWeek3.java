@@ -5,7 +5,7 @@ package se.lexicon;
  */
 public class StringWeek3 {
     public static void main(String[] args) {
-        ex1();
+        ex8();
 
     }
 
@@ -91,6 +91,12 @@ public class StringWeek3 {
     //"Oil and Water", split them up into the words "Oil","Water"
     //and store them in a String array.
     public static void ex8() {
+        String words= "Oil and water";
+        String[]strArray= null;
+        strArray =words.split(" ");
+        for( int i=0; i<strArray.length; i++){
+            System.out.println(strArray[i]);
+        }
 
 
     }
