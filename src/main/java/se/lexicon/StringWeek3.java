@@ -91,7 +91,7 @@ public class StringWeek3 {
     //"Oil and Water", split them up into the words "Oil","Water"
     //and store them in a String array.
     public static void ex8() {
-        String words= "Oil and water";
+        String words= "Oil, water";
         String[]strArray= null;
         strArray =words.split(" ");
         for( int i=0; i<strArray.length; i++){
